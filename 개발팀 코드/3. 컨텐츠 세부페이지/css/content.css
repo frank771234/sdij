@@ -1,0 +1,199 @@
+body{
+    font-family: 나눔고딕;
+    background-color: #Fefefe;
+}
+.content_desc{
+    background-image: url(https://file.sdij.com/sdij/sdndic/depth2/02_백과사전_컨텐츠1.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 80%;
+    height: 700px;
+    margin:auto;
+}
+.desc{
+    display:inline-block;
+    list-style:none;
+
+}
+.cont_desc{
+    background-color: #fff;
+    height:100%;
+}
+.title_1{
+    color:white;
+    font-size:70px;
+    text-align:center;
+    padding-top:20%;
+    font-family: 나눔명조;
+}
+.title_2{
+ color: white;
+ text-align:center;
+ padding-top:5%;
+ font-family: 나눔고딕;
+ 
+}
+.pi_1{
+    display:inline-block;
+    vertical-align: top;
+    padding-left: 10%;
+}
+.pi_1 img{
+    width: 500px;
+    height: 550px;
+}
+.cont_desc{
+    background-color: #f3f3f3;
+    width:80%;
+    height: 40%;
+    padding-top:5%;
+    margin:auto;
+}
+.tit{
+    display:inline-block;
+    vertical-align: top;
+    padding-left: 15%;
+    
+}
+.suv{
+    padding-bottom: 5%;
+    font-size: 75px;
+    font-weight:bold;
+    font-family: 나눔명조;
+}
+.cont_desc p{
+    font-size: 15px;
+    font-weight: normal;
+}
+.pencil img{
+    width:40px;
+    height:40px;
+    display:inline-block;
+    padding-left: 90%;
+    padding-top:70%;
+    
+}
+.abc{
+    display:inline-block;
+    vertical-align: top;
+    padding-top:5px;
+    padding-left: 70px;
+}
+.title{
+    font-size: 50px;
+    display:inline-block;
+    padding-left:5%;
+    padding-bottom: 7%;
+}
+.describ{
+    display: inline-block;
+    vertical-align:top;
+}
+.pencil{
+    display: inline-block;
+    vertical-align: middle;
+    padding-left:5%;
+    
+}
+#pen_2{
+    margin-bottom: 5%;
+    padding-left:5%;
+}
+.line{
+    padding-bottom:5%;
+}
+.pencil img{
+    vertical-align: top;
+}
+.abc p{
+    font-size:20px;
+}
+#desc{
+    background-color: #f9f9f9;
+}
+.descp h1{
+    font-size: 40px;
+    color:#1D1D1F;
+    line-height: 140%;
+    padding-top:3%;
+    font-weight:normal;
+    margin-top:0%;
+}
+body{
+    height:100%;
+}
+.descp h2{
+    font-size: 21px;
+    margin: 2.5% 0% 0.5%;
+    color:#1D1D1F;
+    line-height: 200%;
+}
+#aab{
+    padding-bottom: 0%; 
+}
+#aa p{
+    padding-bottom:0%;
+}
+.descp{
+    background-color: white;
+}
+.content_desc .recommend{
+    display: inline-block;
+    vertical-align: top;
+}
+.recommend img{
+    width: 60px;
+    height: 60px;
+    padding-bottom: 30px;
+    padding-left: 6%;
+    
+}
+.recommend{
+    display:inline-block;
+    vertical-align: top;
+    padding-left: 6%;
+    padding-bottom: 6%;
+    margin:auto;
+}
+#recommendation{
+    font-family: 'Noto Sans KR','Sans-serif','맑은 고딕', '돋움','Dotum','Apple SD Gothic Neo';
+    background-color: #f3f3f3;
+    width:100%;
+    height: 400%;
+    padding-top: 5%;
+    margin:auto;
+}
+.name{
+    font-family: 'Noto Sans KR','Sans-serif','맑은 고딕', '돋움','Dotum','Apple SD Gothic Neo';
+    text-align:center;
+    font-size:20px;
+    font-weight:bold    ;
+}
+.word{
+    font-family: 'Noto Sans KR','Sans-serif','맑은 고딕', '돋움','Dotum','Apple SD Gothic Neo';
+    font-size:15px;
+    padding-top:50px;
+    padding-left: 35px;
+    line-height: 250%;
+}
+.descp h1{
+    transition: transform .5s cubic-bezier(.42,.46,.45,.99),opacity .5s cubic-bezier(.42,.46,.45,.99);
+    will-change: opacify,transform;
+}
+.sa {
+    opacity: 0;
+    transition: all .5s ease;
+  }
+.sa-up {
+    transform: translate(0, 100px);
+  }
+  .sa.show {
+    opacity: 1;
+    transform: none;
+  }
+
+.owl img {
+    width: 20%;
+    height: 20%;
+    padding-left: 40%;
+}
