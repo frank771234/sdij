@@ -1,0 +1,101 @@
+#header{
+    width: 1180px;
+    margin: 0 auto;
+    position: relative;
+}
+#header .top .icon-menu{
+    padding:10px;
+    position: absolute;
+    top:30px;
+    background:none;
+    font-size:0;
+    z-index:99999;
+}
+
+.icon{
+    display: inline-block;
+    position: relative;
+    top:-1px;
+    background-color: transparent;
+    background-position: 50% 0;
+    background-repeat: none;
+    text-indent:-9999px;
+    vertical-align: middle;
+    zoom:1;
+    background-image: url(hamburger.png);
+
+}
+
+span,p{
+    margin: 0;
+    padding: 0;
+    border:0;
+    outline:0;
+    line-height: inherit;
+    font-size:inherit;
+    font-family: 'Noto Sans KR','Sans-serif', '맑은 고딕', '돋움', 'Doutum','Apple SD Gothic Neo';
+    letter-spacing: -.025em;
+}
+
+button{
+    text-rendering: auto;
+    color: dark;
+    word-spacing: normal;
+    text-transform: none;
+    text-shadow: none;
+    text-align: center;
+}
+
+#header .top h1{
+    margin-left:35px;
+    line-height: 93px;
+    position: relative;
+    font-size:16px;
+    font-weight: bold;
+    z-index: 99999;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.content{
+    width: 1100px;
+    margin: 0 auto;
+    padding-top:40px;
+    position:relative;
+}
+.tit-box{
+    line-height: 30px;
+    font-size: 19px;
+    text-align: left;
+    
+
+}
+.content .txt-box{
+    width: 340px;
+}
+
+.content p{
+    line-height: 30px;
+    margin-bottom: 20px;
+    font-family: 'Noto Serif KR', 'Noto Serif', serif, 'Sans-serif', 'Noto Sans KR';
+    font-size: 18px; 
+}
+
+p{
+    display:block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.txt-box_pr{
+    width: 740px;
+    height: 405px;
+    
+}
