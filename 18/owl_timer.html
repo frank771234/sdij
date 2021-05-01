@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <title>fullpage.js</title>
+
+    <link rel="stylesheet" href="css/fullpage.min.css">
+    <link rel="stylesheet" href="css/time.css">
+    <script src="js/fullpage.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <style>
+           
+            .container{
+
+                margin:auto;
+                width: 90%;
+                height: 90%;
+            }
+            .left{
+                
+                background-image: url('img/ipad.png');
+                background-size:cover;
+                position: absolute;
+                width:35%;
+                height:50%;
+                top: 26%;
+                left: 10%;  
+            }
+            .right{
+                
+                position:absolute;
+                width: 45%;
+                height: 80%;
+                top: 10%;
+                left: 47%;
+            
+            }
+        </style>
+</head>
+    
+    <body>
+        <div id="full-page">
+            <div class="section s0">
+                
+                <div class="container">
+                    <div class="left">
+
+                    </div>
+                    <div class="right">
+                       <span class="tit"><p class="num" style="font-size:40px;display: inline-block;padding-left: 10% ;">01.</p>본인의 순공 시간 체크, </span>
+                       <p class="info" style="padding-left:10%; font-size: 30px; line-height: 3.0rem; color:white">
+                        수업과 자습 시간을 시스템적으로 분리하여, <br>
+                        자신이 하루에 얼마나 공부하는지 <br>
+                        실질적 수치로 확인이 가능합니다.<br>
+                        디자인을 뭘 어떻게 해야 할까요?
+                        
+                       </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section s1">
+                <div class="container">
+                    <div class="left">
+
+                    </div>
+                    <div class="right">
+                        <span class="tit"><p class="num" style="font-size:40px;display: inline-block;padding-left: 10% ;">02.</p>본인의 순공 시간 체크, </span>
+                        <p class="info" style="padding-left:10%; font-size: 30px; line-height: 3.0rem; color:white">
+                         수업과 자습 시간을 시스템적으로 분리하여, <br>
+                         자신이 하루에 얼마나 공부하는지 <br>
+                         실질적 수치로 확인이 가능합니다.<br>
+                         디자인을 뭘 어떻게 해야 할까요?
+                         
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section s2">
+                <h2>Section2</h2>
+            </div>
+
+            <div class="section s3">
+                <h2>Section3</h2>
+            </div>
+
+            <div class="section s4">
+               <div class="container" id="section4">
+                  <div class="box" id="first"></div>
+                  <div class="box" id="second"></div>
+                  <div class="box" id="third"></div>
+                  <div class="box" id="fourth"></div>
+                  <div class="box" id="fifth"></div>
+                  <div class="box" id ="sixth"></div>
+
+            </div>
+        </div>
+
+        <script>
+            new fullpage('#full-page',{
+            licenseKey: '',
+            navigation: true,
+            scrollingSpeed: 1500,
+            onLeave:function(origin,destination,direction){
+                 if(origin.index==1){
+                    $('.s1 h3').hide();
+                 }     
+            },
+            afterLoad: function(origin,destination,direction){
+                if(destination.index==1){
+                    $('.s1 h3').show();
+                }  
+            }
+            });
+            
+        </script>
+    </body>
+</html>

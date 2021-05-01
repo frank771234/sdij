@@ -1,0 +1,110 @@
+@media screen and (min-width: 900px) {
+  body {
+    min-width: 1200px;
+    min-height: 100%;
+    word-break: break-all;
+    font-family: "Noto Sans KR", sans-serif;
+    background: #fff;
+    /* overflow: hidden; */
+  }
+
+  .swiper-container {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+  }
+  .swiper-container {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .contents_box {
+    position: relative;
+    width: 1400px;
+    display: block;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+  }
+
+  #section1 {
+    width: 100%;
+    height: auto;
+    background-color: rgb(90, 90, 252);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+  }
+  .swiper-slide {
+    -webkit-flex-shrink: 0;
+    -ms-flex: 0 0 auto;
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  .section1_left {
+    display: block;
+    float: left;
+    width: 696px;
+    height: 600px;
+    text-align: left;
+    margin-top: 100px;
+    border-radius: 10px;
+  }
+
+  .section1_left_pic {
+    display: block;
+    width: 900px;
+    height: 650px;
+    background: url("../img/ipad.png");
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  }
+
+  .section1_right {
+    display: block;
+    float: right;
+    width: 504px;
+    height: 600px;
+    text-align: right;
+    margin-top: 100px;
+  }
+  .typo1_po1 {
+    font-family: "Noto Sans KR";
+    font-style: normal;
+    font-weight: 300;
+    line-height: 40px;
+    font-size: 1.9rem;
+    color: black;
+  }
+  .typo1_po2 {
+    font-family: "Noto Sans KR";
+    font-style: normal;
+    color: #fccd07;
+    font-size: 24px;
+  }
+  .typo1_po3 {
+    font-family: "Noto Sans KR";
+    font-style: normal;
+    color: #141412;
+    font-size: 40px;
+  }
+  .typo1_po4 {
+    padding-top: 100%;
+  }
+  #section2 {
+    width: 100%;
+    height: auto;
+    background-color: rgb(233, 233, 252);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+  }
+}
