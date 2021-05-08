@@ -1,0 +1,56 @@
+body {
+  font-family: "applesdgothicneoboo";
+  position: relative;
+}
+
+.main {
+  padding-top: 30%;
+  padding-bottom: 10%;
+  padding-left: 10%;
+  color: white;
+  font-size: 200%;
+  font-family: "applesdgothicneob00";
+}
+
+.title {
+  padding-top: 4%;
+  padding-bottom: 3%;
+  color: black;
+  font-size: 150%;
+  text-align: center;
+  font-family: "applesdgothicneob00";
+}
+
+.panelContainer {
+  margin: auto;
+  width: 90%;
+  display: flex;
+}
+.imagePanel {
+  flex: 50%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.imagePanel img {
+  width: 100%;
+}
+
+.pa {
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+  background-color: white;
+  width: 45%;
+  padding: 2%;
+}
+
+.pa2 {
+  font-family: applesdgothicneob00;
+  font-size: 70%;
+}
+
+.container {
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: #f2f2f2;
+}
